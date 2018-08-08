@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Antonio-Bold;
+    src: url("../font/Antonio-Bold.ttf");
+}
+
+* {
+    color: purple;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+body {
+    background: mediumpurple;
+}
+
+#page {
+    width: 300px;
+    margin: 0 auto;
+    background-color: lightskyblue;
+    padding: 6px;
+}
+
+h1 {
+    margin: 12px 0 12px 0;
+    font-family: Antonio-Bold;
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Antonio-Bold;
+}
+
+a:hover {
+    color: white;
+}
+
+#page div:first-of-type {
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.menu {
+    list-style-type:none;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 6px;
+}
+
+.menu li {
+    display: inline;
+    padding: 6px;
+    color: white;
+    font-family: Antonio-Bold;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+body {
+    background-image: url("../images/obray.jpg");
+}
+
+@media (max-width: 576px) {
+    #page {
+        width: 100%;
+    }
+}
